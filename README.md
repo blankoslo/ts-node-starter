@@ -1,18 +1,18 @@
-# TS Node Starter
+# TS Node Starter Pack
 
-To use this project as a starter, do the following:
+For å bruke dette prosjektet som et utgangspunkt til utvikling i Typescript, kjør følgende kommandoer i terminalen: 
 
 ```bash
-# Clone the project
+# Klon prosjektet
 $ git clone https://github.com/jakobsen/ts-node-starter.git
 
-# Enter the directory
+# Gå inn i prosjektmappen
 $ cd ts-node-starter
 
-# Install the dependencies
+# Installer nødvendige pakker
 $ npm i
 
-# Verify that everything works
+# Sjekk at alt virker, burde printe `Hello world!`
 $ npm start
 
 > ts-node-starter@1.0.0 start
@@ -20,8 +20,8 @@ $ npm start
 
 Hello world!
 ```
-You may now start developing, using [`index.ts`](/index.ts) as an entry point.
-If you want the code to run again every time there's a change in a file, you can use the following command:
+Du kan nå begynne å utvikle med utangspunkt i [`index.ts`](/index.ts)
+Om du har lyst til at koden skal kjøre hver gang du gjør en endring kan du bruke følgende kommando:
 ```bash
 $ npm run dev
 
@@ -34,9 +34,5 @@ $ npm run dev
 [nodemon] watching extensions: ts,json
 [nodemon] starting `ts-node index.ts`
 Hello world!
-[nodemon] clean exit - waiting for changes before restart
-[nodemon] restarting due to changes...
-[nodemon] starting `ts-node index.ts`
-Hello there!
 [nodemon] clean exit - waiting for changes before restart
 ```
